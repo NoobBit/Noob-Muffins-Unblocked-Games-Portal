@@ -1,3 +1,13 @@
+#home-page-title-icon {
+   display: block;
+   margin: 0 auto;
+   margin-top: 20vh;
+   transition: all 0.2s ease;
+   height: 7vw;
+   width: 7vw;
+   border-radius: 50%;
+}
+
 .center {
    display: flex;
    justify-content: center;
@@ -5,7 +15,7 @@
 }
 
 .title {
-   font-size: 10vh;
+   font-size: 6vh;
    color: var(--text-primary);
    font-family: "Inter", sans-serif;
    text-align: center;
@@ -47,11 +57,12 @@
    width: 50vw;
    height: 5vh;
    font-family: "Poppins", sans-serif;
-   font-size: 16px;
+   font-size: 1.5rem;
    box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.2);
    background: var(--background-input);
    -webkit-backdrop-filter: var(--backdrop-filter);
    backdrop-filter: var(--backdrop-filter);
+   border-radius: 30px;
 }
 
 input {

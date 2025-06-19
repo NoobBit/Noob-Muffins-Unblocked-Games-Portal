@@ -14,9 +14,6 @@ const nav = document.querySelector(".f-nav");
 if (nav) {
   const themeId = localStorage.getItem("theme");
   let LogoUrl = "/assets/media/favicon/main.png";
-  if (themeId === "Inverted") {
-    LogoUrl = "/assets/media/favicon/main-inverted.png";
-  }
   const html = `
 <div id="icon-container">
     <a class="icon" href="/./"><img alt="nav" id="INImg" src="${LogoUrl}"/></a>
